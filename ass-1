@@ -1,0 +1,16 @@
+//To find n cube using sub function
+#include<stdio.h>
+int cube(int n)
+{
+	int a;
+	a=n*n*n;
+	printf("Cube of %d = %d",n,a);
+}
+int main()
+{
+	int n;
+	printf("Enter the value of n:");
+	scanf("%d",&n);
+	cube(n);
+	return 0;
+}
